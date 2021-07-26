@@ -1,0 +1,11 @@
+[package]
+name = "ray-rs"
+version = "0.1.0"
+authors = ["nobody <nobody@nowhere.com>"]
+edition = "2018"
+
+[dependencies]
+cxx = "1.0"
+
+[build-dependencies]
+cxx-build = "1.0"
